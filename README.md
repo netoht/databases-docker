@@ -6,7 +6,7 @@ more info: https://registry.hub.docker.com/_/jenkins/
 docker run --name jenkins -p 8080:8080 -v /var/jenkins_home jenkins
 ```
 
-# Iniciando uma fila rabbitmq "local" via docker
+# Instâncias de RabbitMQ
 
 more info: https://registry.hub.docker.com/u/tutum/rabbitmq/
 
