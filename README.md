@@ -47,7 +47,7 @@ curl --user admin:mypass  http://<host>:<port>/api/vhosts
 ```
 
 
-# Instância do banco de dados Oracle
+# Instância de Oracle
 
 more info: https://registry.hub.docker.com/u/alexeiled/docker-oracle-xe-11g/
 
@@ -72,7 +72,7 @@ ALTER USER system IDENTIFIED BY oracle
 ```
 
 
-# Instância do banco de dados Mysql
+# Instância de MySQL
 
 more info: https://registry.hub.docker.com/_/mysql/
 
@@ -90,7 +90,7 @@ password: mysql
 ```
 
 
-# Instância do banco de dados PostgreSQL
+# Instância de PostgreSQL
 
 more info: https://registry.hub.docker.com/_/postgres/
 
@@ -108,7 +108,7 @@ password: postgresql
 ```
 
 
-# Instância do banco de dados Microsoft SQL Server (com Vagrant)
+# Instância de SQL Server (com Vagrant)
 
 more info: https://github.com/fgrehm/vagrant-mssql-express
 
