@@ -70,6 +70,28 @@ PS: Caso na primeira vez que você se conectar ao banco aparecer uma mensagem di
 ALTER USER system IDENTIFIED BY oracle
 ```
 
+###### Conectando no Oracle Application Express web management console:
+```
+url:       http://machine_ip_dev:8080/apex
+workspace: INTERNAL
+user:      ADMIN
+password:  oracle
+```
+
+###### Login via SSH na máquina
+```sh
+ssh root@machine_ip_dev -p 2223
+password: admin
+```
+
+###### Criando novo usuário
+```
+CREATE USER my_app identified by 123456;
+GRANT create session,create table TO my_app;
+GRANT UNLIMITED TABLESPACE TO my_app;
+SELECT * FROM dba_users WHERE username = 'MY_APP';
+```
+
 
 # Instância de MySQL
 
